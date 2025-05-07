@@ -87,6 +87,24 @@ section h3 {
   color: #777
 }
 
+.participants-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.delete-participant:hover {
+  color: darkred;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
